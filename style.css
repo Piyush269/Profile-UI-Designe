@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #BBD1EA; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+}
+.upper-box{
+    background-color: #28536B;
+    height: 150px;
+    width: 350px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.outer-circle{
+    height: 150px;
+    width: 150px;
+    background-color: #28536B;
+    position: relative;
+    top: -31%;
+    left: 27%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-circle{
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-circle{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #28536B;
+    background-image: url(piyush.jpeg);
+    background-size: cover;
+}
+.piyush{
+    font-size: 20px;
+    font-weight: 700;
+}
+.creator{
+    font-size: 15px;
+    font-weight: 400;
+}
+.text{
+    background-color: white;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    flex-grow: .5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -30%;
+}
+.social-link{
+    height: 25px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: -27%;
+    left: 20%;
+}
+i{
+    font-size: 25px;
+}
+.btn{
+    background-color: white;
+    height: 25px;
+    width: 300px;
+    position: relative;
+    top: -20%;
+    left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn1{
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #28536B;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.btn2{
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #28536B;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.social-num{
+    height: 20px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: -11%;
+    left: 15%;
+}
+.box{
+
+    width: 112px;
+    border-right: 2px solid rgba(0, 0, 0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box i{
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: -12px;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.share-num{
+    border: none;
+}
